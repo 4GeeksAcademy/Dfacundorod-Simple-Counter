@@ -1,7 +1,7 @@
 import React from "react";
 import {SecondCounter} from './SecondCounter';
-
-import {PropTypes} from 'prop-types';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 let initialValue = 0
 export function Home(){
@@ -14,7 +14,7 @@ export function Home(){
     let digitSix=Math.floor(initialValue/100000)%10;
     return (<div className="container-fluid d-inline-flex justify-content-center pt-5" style={{height: `20vh`}}>
         <div className="col-1 text-white d-flex align-items-center justify-content-center" style={{backgroundColor:'#070707', fontSize:`5rem`, border:`2px, #484948, solid`}}>
-            <i className="fa-regular fa-clock"></i>
+        <FontAwesomeIcon icon={faClock} />
         </div>
         <SecondCounter unit={digitSix} />
         <SecondCounter unit={digitFive} />
