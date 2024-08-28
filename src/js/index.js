@@ -14,6 +14,5 @@ function Render(){
 
 }
 window.onload = setInterval(() => {
-    
     Render()
 }, 1000);
