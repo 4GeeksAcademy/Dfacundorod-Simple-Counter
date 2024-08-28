@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import {SecondCounter} from './SecondCounter';
+import {SecondCounter} from './secondCounter';
 
 let initialValue = 0;
 export const Count = ()=>{
