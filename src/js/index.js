@@ -13,8 +13,7 @@ function Render(){
     root.render(<Home/>)
 
 }
-
-setInterval(() => {
+window.onload = setInterval(() => {
     
     Render()
 }, 1000);
