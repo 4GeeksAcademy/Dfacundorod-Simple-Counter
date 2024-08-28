@@ -9,7 +9,5 @@ export function Home(){
     return(
         <>
         <Count />
-        <CuentaRegresiva />
-        <CountWithButtons />
         </>);
 }
